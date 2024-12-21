@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Container_Apps", "..\", "{79936FA8-5713-4D63-ACE2-305074AB929F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53208"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Container_Apps\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53208\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53208"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Container_Apps\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53208\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53208"
+		SlnRelativePath = "..\..\Azure_Container_Apps\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1A82F58A-0E7D-4854-A6E5-3EE5969403D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipcheck", "ipcheck.csproj", "{95C8018D-32BE-42FD-93D2-7D81259D340D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79936FA8-5713-4D63-ACE2-305074AB929F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79936FA8-5713-4D63-ACE2-305074AB929F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79936FA8-5713-4D63-ACE2-305074AB929F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{79936FA8-5713-4D63-ACE2-305074AB929F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95C8018D-32BE-42FD-93D2-7D81259D340D} = {1A82F58A-0E7D-4854-A6E5-3EE5969403D5}
+	EndGlobalSection
+EndGlobal
