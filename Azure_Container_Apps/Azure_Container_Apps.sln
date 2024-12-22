@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Container_Apps", "..\", "{79936FA8-5713-4D63-ACE2-305074AB929F}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -26,7 +26,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Container_Apps", "..\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1A82F58A-0E7D-4854-A6E5-3EE5969403D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipcheck", "ipcheck.csproj", "{95C8018D-32BE-42FD-93D2-7D81259D340D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipcheck", "ipcheck\ipcheck.csproj", "{1B99559F-9B0B-4811-BBC5-998607291F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs", "Labs", "{D169D9DC-82AE-49EA-B2AF-CB50DABC7515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapp-lab14", "webapp-lab14\webapp-lab14.csproj", "{08B905A0-A7A2-43CD-A999-AC389615CBAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,15 +42,20 @@ Global
 		{79936FA8-5713-4D63-ACE2-305074AB929F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79936FA8-5713-4D63-ACE2-305074AB929F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{79936FA8-5713-4D63-ACE2-305074AB929F}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95C8018D-32BE-42FD-93D2-7D81259D340D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B99559F-9B0B-4811-BBC5-998607291F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B99559F-9B0B-4811-BBC5-998607291F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B99559F-9B0B-4811-BBC5-998607291F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B99559F-9B0B-4811-BBC5-998607291F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B905A0-A7A2-43CD-A999-AC389615CBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B905A0-A7A2-43CD-A999-AC389615CBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B905A0-A7A2-43CD-A999-AC389615CBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B905A0-A7A2-43CD-A999-AC389615CBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{95C8018D-32BE-42FD-93D2-7D81259D340D} = {1A82F58A-0E7D-4854-A6E5-3EE5969403D5}
+		{1B99559F-9B0B-4811-BBC5-998607291F2A} = {1A82F58A-0E7D-4854-A6E5-3EE5969403D5}
+		{08B905A0-A7A2-43CD-A999-AC389615CBAD} = {D169D9DC-82AE-49EA-B2AF-CB50DABC7515}
 	EndGlobalSection
 EndGlobal

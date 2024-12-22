@@ -7,6 +7,10 @@ https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/
 Solution: 
 https://github.com/utpal-maiti/AZ-204-DevelopingSolutionsforMicrosoftAzure/tree/master/Allfiles/Labs/05/Solution
 
+Lab 14: Implement containerized solutions
+https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_14.html
+https://github.com/utpal-maiti/AZ-204-DevelopingSolutionsforMicrosoftAzure/tree/master/Allfiles/Labs/14/Starter/webapp-lab14
+
 **Azure Container Registry (ACR)** and **Azure Container Apps** are two powerful services that work together to streamline the development, deployment, and management of containerized applications. Here's a brief overview of each:
 
 ### Azure Container Registry (ACR)
